@@ -58,12 +58,6 @@ const RegisterScreen = ({ navigation }) => {
       />
 
       <Button title="Register" onPress={handleRegister} />
-
-      <Button
-        title="Back to Login"
-        onPress={() => navigation.goBack()}
-        color="#1c1c1e" // Adjust the color to match your design
-      />
     </View>
   );
 };
