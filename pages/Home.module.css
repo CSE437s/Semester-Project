@@ -1,0 +1,83 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .content h1 {
+    font-size: 8rem;
+    font-family: 'Roboto Rounded', sans-serif;
+  }
+  
+  .content p {
+
+  }
+  
+  .buttons{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  
+  .text {
+    z-index: 2;
+    position: relative; 
+  }
+
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .overlapImage {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-95%);
+    z-index: 1; 
+  }
+
+.textContainer {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+  position: relative; 
+  z-index: 2;
+  font-size: 2rem;
+}
+
+.signupButton {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #333333;
+}
+
+.loginButton {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #333333;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+  @media (max-width: 600px) {
+    .hero {
+      flex-direction: column;
+    }
+  }

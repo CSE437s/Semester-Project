@@ -1,8 +1,8 @@
 # Semester-Project
 
-## Team Name: <Insert Here>
-## Group #: <Insert Here>
-## Contributors: <Insert Here>
-## TA: <Insert Here>
+## Team Name: Tripify
+## Group #: 6
+## Contributors: Kevin Li, Shawn Zhu, Yurock Heo
+## TA: Johnny
 
 ## Instructions/Link to access: <insert here>
