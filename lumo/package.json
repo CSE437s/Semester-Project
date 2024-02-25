@@ -3,18 +3,19 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@craco/craco": "^6.0.0",
+        "@craco/craco": "^5.9.0",
         "@supabase/supabase-js": "^1.2.1",
         "@tailwindcss/postcss7-compat": "^2.0.2",
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^11.1.0",
         "@testing-library/user-event": "^12.1.10",
-        "autoprefixer": "9",
+        "autoprefixer": "^10.4.17",
         "postcss": "8",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
-        "react-scripts": "4.0.1",
-        "web-vitals": "^0.2.4"
+        "react-scripts": "^5.0.1",
+        "web-vitals": "^0.2.4",
+        "yarn": "^1.22.21"
     },
     "scripts": {
         "start": "craco start",
@@ -39,5 +40,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.1"
     }
 }
