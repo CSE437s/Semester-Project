@@ -53,6 +53,7 @@ export default function App() {
               </>
             )
           }
+          </>
 
         ) : (
           <>
@@ -64,9 +65,10 @@ export default function App() {
           // screens that can be accessed when the user is logged in or logged out should be denoted as such
           // <Stack.Screen navigationKey={isLoggedIn ? 'user' : 'guest'} name="Help" component={HelpScreen} />
           //NOTE: this would be outside the isLoggedIn ? ternary operator
-        )}
+        )
+        }
 
-      </Stack.Navigator>
+      </ Stack.Navigator >
 
     </NavigationContainer >
   );
