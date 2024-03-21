@@ -1,0 +1,10 @@
+# temporary files
+tmp
+
+# ds store
+.DS_Store
+
+node_modules
+
+# any .env file
+**/.env
