@@ -1,0 +1,8 @@
+
+node_modules
+
+private-key.pem
+csr.pem
+https-cert.crt
+
+backend/.env
