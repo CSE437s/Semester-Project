@@ -1,8 +1,8 @@
 # Semester-Project
 
-## Team Name: <Insert Here>
-## Group #: <Insert Here>
-## Contributors: <Insert Here>
-## TA: <Insert Here>
+## Team Name: DCoss
+## Group #: 5
+## Contributors: David, Vishal, Bashar
+## TA: Victor
 
 ## Instructions/Link to access: <insert here>
